@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>YoYo Dev Studio | Creative Development for your website and business</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,6 +11,8 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
     </head>
     <body>
