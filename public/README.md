@@ -1,64 +1,58 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+![Simple MVC Framework](http://simplemvcframework.com/app/templates/smvcf/img/logo.png)
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
+## Packagist
 
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+[![Software License](http://img.shields.io/badge/License-BSD--3-brightgreen.svg?style=flat-square)](LICENSE)
+[![Total Downloads](https://img.shields.io/packagist/dt/simple-mvc-framework/v2.svg?style=flat-square)](https://packagist.org/packages/simple-mvc-framework/v2)
 
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Twitter: [@h5bp](http://twitter.com/h5bp)
+The framework is now on packagist [https://packagist.org/packages/simple-mvc-framework/v2](https://packagist.org/packages/simple-mvc-framework/v2)
 
+Install from terminal now by using:
 
-## Quick start
+````
+composer create-project simple-mvc-framework/v2 foldername -s dev
+````
 
-Choose one of the following options:
+The foldername is the desired folder to be created.
 
-1. Download the latest stable release from
-   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
-   [Initializr](http://www.initializr.com).
-2. Clone the git repo — `git clone
-   https://github.com/h5bp/html5-boilerplate.git` - and checkout the [tagged
-   release](https://github.com/h5bp/html5-boilerplate/releases) you'd like to
-   use.
+If you use Sublime you can also use the fetch package to download the framework from within Sublime Text 
+[http://code.tutsplus.com/articles/introducing-nettuts-fetch--net-23490](http://code.tutsplus.com/articles/introducing-nettuts-fetch--net-23490)
 
+#V2.1
+#What is Simple MVC Framework?
 
-## Features
+Simple MVC Framework is a PHP 5.3 MVC system. It's designed to be lightweight and modular, allowing developers to build better and easy to maintain code with PHP.
 
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Firefox, IE8+, Opera, Safari).
-* Designed with progressive enhancement in mind.
-* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
-  normalizations and common bug fixes.
-* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* The latest [Modernizr](http://modernizr.com/) build for feature detection.
-* Placeholder CSS Media Queries.
-* Useful CSS helpers.
-* Default print CSS, performance optimized.
-* Protection against any stray `console.log` causing JavaScript errors in
-  older browsers.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for
-  Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
-
-[HTML5 Boilerplate v4 provides legacy browser
-support](https://github.com/h5bp/html5-boilerplate/tree/v4) (IE 6+, Firefox
-3.6+, Safari 4+), but is no longer actively developed.
+The base framework comes with a range of helper classes.
 
 ## Documentation
 
-Take a look at the [documentation table of contents](doc/TOC.md). This
-documentation is bundled with the project, which makes it readily available for
-offline reading and provides a useful starting point for any documentation you
-want to write about your project.
+Full docs & tutorials are available at [simplemvcframework.com](http://simplemvcframework.com)
 
+##Requirements
 
-## Contributing
+ The framework requirements are limited
 
-Anyone and everyone is welcome to [contribute](CONTRIBUTING.md). Hundreds of
-developers have helped make the HTML5 Boilerplate what it is today.
+ - Apache Web Server or equivalent with mod rewrite support.
+ - PHP 5.3 or greater is required
+
+ Although a database is not required, if a database is to be used the system is designed to work with a MySQL database. The framework can be changed to work with another database type.
+
+## Installation
+
+1. Download the framework
+2. Unzip the package.
+3. To run composer, navigate to your project on a terminal/command prompt then run 'composer install' that will update the vendor folder. Or use the vendor folder as is (composer is not required for this step)
+Upload the framework files to your server. Normally the index.php file will be at your root.
+4. Open the index.php file with a text editor, setup your routes.
+5. Open core/config.example.php and set your base URL and database credentials (if a database is needed). Set the default theme. When you are done, rename the file to core/config.php
+6. Edit .htaccess file and save the base path. (if the framework is installed in a folder the base path should reflect the folder path /path/to/folder/ otherwise a single / will do.
+
+##Sublime Text Snippets
+
+For Sublime Text users, their is a new plugin for keyboard shortcuts see [https://github.com/simple-mvc-framework/SMVC-Snippets](https://github.com/simple-mvc-framework/SMVC-Snippets) for more details and install instructions.
+
+### Other Contributions
+Have you found this library helpful? Why not take a minute to endorse my hard work on [coderwall](https://coderwall.com/daveismynamecom)! Just click the badge below:
+
+[![endorse](https://api.coderwall.com/daveismynamecom/endorsecount.png)](https://coderwall.com/daveismynamecom)
